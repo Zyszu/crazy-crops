@@ -1,0 +1,10 @@
+{
+  "sound_music_disc_fagata": {
+    "sounds": [
+      {
+        "name": "crazy-crops:sound_music_disc_fagata",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "crazy-crops",
+	"version": "${version}",
+	"name": "Crazy Crops",
+	"description": "Smacznej kawusi",
+	"authors": [
+		"Zyszu"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/crazy-crops/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.zyszu.CrazyCrops"
+		],
+		"client": [
+			"me.zyszu.CrazyCropsClient"
+		],
+		"fabric-datagen": [
+			"me.zyszu.CrazyCropsDataGenerator"
+		]
+	},
+	"mixins": [
+		"crazy-crops.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.3",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
