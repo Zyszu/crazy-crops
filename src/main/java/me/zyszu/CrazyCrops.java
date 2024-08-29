@@ -1,5 +1,6 @@
 package me.zyszu;
 
+import me.zyszu.block.ModBlocks;
 import me.zyszu.item.ModItems;
 import me.zyszu.sound.ModSounds;
 import net.fabricmc.api.ModInitializer;
@@ -24,5 +25,6 @@ public class CrazyCrops implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 		ModItems.registerModItems();
 		ModSounds.registerSounds();
+		ModBlocks.registerModBlocks();
 	}
 }

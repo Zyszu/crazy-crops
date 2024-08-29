@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "crazy-crops:block/sound_block"
+    }
+  }
+}

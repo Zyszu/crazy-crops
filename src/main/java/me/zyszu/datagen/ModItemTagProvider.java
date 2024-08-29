@@ -18,8 +18,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        getOrCreateTagBuilder(ItemTags.MUSIC_DISC)
-                .add(ModItems.MUSIC_DISC_FAGATA);
+        //getOrCreateTagBuilder(ItemTags.MUSIC_DISC)
+        //        .add(ModItems.MUSIC_DISC_FAGATA);
     }
 
 }
