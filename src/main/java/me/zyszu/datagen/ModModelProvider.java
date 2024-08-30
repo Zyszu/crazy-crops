@@ -1,6 +1,6 @@
 package me.zyszu.datagen;
 
-import me.zyszu.block.HempCropBlock;
+import me.zyszu.block.iblocks.HempCropBlock;
 import me.zyszu.block.ModBlocks;
 import me.zyszu.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;

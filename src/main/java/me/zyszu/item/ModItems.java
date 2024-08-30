@@ -19,7 +19,6 @@ public class ModItems {
             new AliasedBlockItem(ModBlocks.HEMP_CROP, new Item.Settings()));
 
     public static final Item MUSIC_DISC_FAGATA = registerItem("music_disc_fagata", new Item(new Item.Settings()));
-    //new MinecartItem(, ModSounds.SOUND_MUSIC_DISC_FAGATA, new Item.Settings().maxCount(1), 124));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries group) {

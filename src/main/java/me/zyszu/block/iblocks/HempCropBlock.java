@@ -1,4 +1,4 @@
-package me.zyszu.block;
+package me.zyszu.block.iblocks;
 
 import me.zyszu.CrazyCrops;
 import me.zyszu.genetics.Gens;
@@ -15,8 +15,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
-
-import java.util.concurrent.ThreadLocalRandom;
 
 public class HempCropBlock extends CropBlock {
 
