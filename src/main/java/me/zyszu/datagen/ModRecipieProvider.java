@@ -29,5 +29,6 @@ public class ModRecipieProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
                 .criterion(hasItem(Items.WOODEN_HOE), conditionsFromItem(Items.WOODEN_HOE))
                 .offerTo(exporter, Identifier.of(getRecipeName(ModBlocks.SOUND_BLOCK)));
+
     }
 }

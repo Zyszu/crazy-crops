@@ -4,15 +4,22 @@ import me.zyszu.CrazyCrops;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.jukebox.JukeboxSong;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.sound.SoundEvent;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
     public static final Block SOUND_BLOCK = registerBlock("sound_block", new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
+    public static final Block HEMP_CROP = Registry.register(Registries.BLOCK, Identifier.of(CrazyCrops.MOD_ID, "hemp_crop"),
+            new HempCropBlock(FabricBlockSettings.copyOf(Blocks.POTATOES)));
 
     private static Block registerBlock(String name, Block block) {
 
@@ -26,7 +33,9 @@ public class ModBlocks {
                 new BlockItem(block, new Item.Settings()));
     }
 
+
     public static void registerModBlocks() {
         CrazyCrops.LOGGER.info("Registering ModBlocks for" + CrazyCrops.MOD_ID);
+
     }
 }

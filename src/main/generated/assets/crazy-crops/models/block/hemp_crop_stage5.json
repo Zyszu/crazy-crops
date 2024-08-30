@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "crazy-crops:block/hemp_crop_stage5"
+  }
+}

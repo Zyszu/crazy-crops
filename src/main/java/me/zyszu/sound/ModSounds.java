@@ -1,6 +1,7 @@
 package me.zyszu.sound;
 
 import me.zyszu.CrazyCrops;
+import net.minecraft.block.jukebox.JukeboxSong;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.SoundEvent;
