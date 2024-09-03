@@ -1,8 +1,9 @@
 {
-  "bandit_ride": {
-    "subtitle": "subtitles.crazy-crops.bandit_ride",
+  "music_disc.music_disc_fagata": {
     "sounds": [
-      "crazy-crops:bandit_ride"
+      {
+        "name": "crazy-crops:music_disc_fagata"
+      }
     ]
   }
 }

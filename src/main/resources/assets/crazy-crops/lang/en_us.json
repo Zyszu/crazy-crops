@@ -2,5 +2,7 @@
   "item.crazy-crops.hemp": "hemp",
   "item.crazy-crops.hemp_seeds": "hemp seed",
   "block.crazy-crops.sound_block": "Co to jest?",
-  "subtitles.crazy-crops.bandit_ride": "I fill it later"
+  "item.crazy-crops.music_disc_fagata": "Music Disc",
+  "item.crazy-crops.music_disc_fagata.desc": "Agata Fak - Bandiit Ride",
+  "subtitles.crazy-crops.music_disc_fagata": "Agata Fak - Bandiit Ride"
 }

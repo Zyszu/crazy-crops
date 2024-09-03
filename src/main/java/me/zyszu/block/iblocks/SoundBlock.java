@@ -1,6 +1,5 @@
 package me.zyszu.block.iblocks;
 
-import me.zyszu.CrazyCrops;
 import me.zyszu.sound.ModSounds;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
