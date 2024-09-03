@@ -5,5 +5,10 @@
         "name": "crazy-crops:music_disc_fagata"
       }
     ]
+  },
+  "ja_fagata": {
+    "sounds": [
+      "crazy-crops:ja_fagata"
+    ]
   }
 }

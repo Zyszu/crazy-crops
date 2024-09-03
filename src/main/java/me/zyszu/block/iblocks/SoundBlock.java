@@ -19,7 +19,7 @@ public class SoundBlock extends Block {
     @Override
     protected ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, BlockHitResult hit) {
         if (!world.isClient) {
-            world.playSound(null, pos, ModSounds.BANDIT_RIDE_EVENT, SoundCategory.BLOCKS, 1f, 1f);
+            world.playSound(null, pos, ModSounds.JA_FAGATA_EVENT, SoundCategory.BLOCKS, 1f, 1f);
         }
 
         return ActionResult.PASS;
